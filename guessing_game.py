@@ -2,7 +2,7 @@ import random
 
 highest = 10
 answer = random.randint(1, highest)
-print(answer)   # TODO: Remove after testing
+print(answer)  
 guess = 0 # initialise to any number that doesn't equal the answer
 print("Please guess number between 1 and {}: ".format(highest))
 
